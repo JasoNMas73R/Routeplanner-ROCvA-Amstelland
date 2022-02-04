@@ -1,5 +1,5 @@
 import time #zet dit in iedere code waarvan je de prompt wil pauzeren want anders werkt het niet
-norm = 0.6 #waittime for de normale prints in de prompt
+norm = 0.6  #waittime for de normale prints in de prompt
 
 def directions(query):
 
@@ -354,6 +354,152 @@ def directions(query):
         directions(input(">"))
 
 
+    if (query.lower() == "stadshart"):
+        init_answer()
+        print("Loop aan de Zetterij naar de bushalte richting Amsterdam. Neem bus")
+        time.sleep(norm)
+        print("357 of 358 (komt afwisselend tijdens werkuren om de 7 minuten en na")
+        time.sleep(norm)
+        print("18:00 om de 15 minuten) en stap uit bij halte Amstelveen Busstation.")
+        time.sleep(norm)
+        print("Als u uitstapt bij de halte moet u naar links lopen om uit het bus-")
+        time.sleep(norm)
+        print("station te gaan. Vervolgens kunt u aan uw rechterkant het winkelcentrum")
+        time.sleep(norm)
+        print("en de wijk Amstelveen Stadshart vinden. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
+    if (query.lower() == "amstelveen stadshart"):
+        init_answer()
+        print("Loop aan de Zetterij naar de bushalte richting Amsterdam. Neem bus")
+        time.sleep(norm)
+        print("357 of 358 (komt afwisselend tijdens werkuren om de 7 minuten en na")
+        time.sleep(norm)
+        print("18:00 om de 15 minuten) en stap uit bij halte Amstelveen Busstation.")
+        time.sleep(norm)
+        print("Als u uitstapt bij de halte moet u naar links lopen om uit het bus-")
+        time.sleep(norm)
+        print("station te gaan. Vervolgens kunt u aan uw rechterkant het winkelcentrum")
+        time.sleep(norm)
+        print("en de wijk Amstelveen Stadshart vinden. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
+    if (query.lower() == "winkelcentrum stadshart"):
+        init_answer()
+        print("Loop aan de Zetterij naar de bushalte richting Amsterdam. Neem bus")
+        time.sleep(norm)
+        print("357 of 358 (komt afwisselend tijdens werkuren om de 7 minuten en na")
+        time.sleep(norm)
+        print("18:00 om de 15 minuten) en stap uit bij halte Amstelveen Busstation.")
+        time.sleep(norm)
+        print("Als u uitstapt bij de halte moet u naar links lopen om uit het bus-")
+        time.sleep(norm)
+        print("station te gaan. Vervolgens kunt u aan uw rechterkant het winkelcentrum")
+        time.sleep(norm)
+        print("en de wijk Amstelveen Stadshart vinden. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
+    if (query.lower() == "uilenstede"):
+        init_answer()
+        print("Loop vanaf de Zetterij aan de Bovenkerkerweg naar de bushalte richting")
+        time.sleep(norm)
+        print("Amsterdam. Pak hier bus 357 of 358 en stap uit bij halte Amstelveen")
+        time.sleep(norm)
+        print("Busstation. Ga bij de halte naar links en vervolgens naar rechts langs")
+        time.sleep(norm)
+        print("het marktplein. Rechtdoor lopen naar het winkelcentrum (bij de ingang")
+        time.sleep(norm)
+        print("waar een Etos met een apotheek zit) en blijf rechtdoor het winkelcentrum")
+        time.sleep(norm)
+        print("lopen totdat u op het plein bij de McDonalds aankomt. Bij het voormalig")
+        time.sleep(norm)
+        print("gebouw van zowel de V&D als Hudsons Bay gaat u linksom het gebouw heen.")
+        time.sleep(norm)
+        print("Na een tijdje ziet u recht voor u de tramhalte Stadshart voor lijn 5")
+        time.sleep(norm)
+        print("richting het Jordaan. Pak de tram daar (komt gemiddeld iedere 8 á 10")
+        time.sleep(norm)
+        print("minuten) en stap vervolgens na ongeveer 5 minuten stapt u uit bij de")
+        time.sleep(norm)
+        print("tramhalte Uilenstede. Bij de halte is de wijk Uilenstede zelf aan uw")
+        time.sleep(norm)
+        print("linkerkant te vinden. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
+    if (query.lower() == "nes aan de amstel"):
+        init_answer()
+        print("Hoewel voor deze route wordt geadviseerd wordt om de fiets te pakken,")
+        time.sleep(norm)
+        print("kan Nes a/d Amstel met een beetje doorlopen ook makkelijk bereikt worden.")
+        time.sleep(norm)
+        print("Loop naar de Bovenkerkerweg. Steek over en volg het fietspad naar rechts.")
+        time.sleep(norm)
+        print("Ga onder het viaduct door en bij de T-splitsing rechtdoor blijven gaan.")
+        time.sleep(norm)
+        print("Blijf de Bovenkerkerweg volgen tot aan de onderliggende tramtunnel en")
+        time.sleep(norm)
+        print("volg de fietsafslag naar links. Aan het eind van de afslag gaat u links")
+        time.sleep(norm)
+        print("en volgt u het fietspad door het park heen tot aan tramhalte Brink.")
+        time.sleep(norm)
+        print("Steek over bij eerste tramovergang die u ziet en volg linksom het huizen-")
+        time.sleep(norm)
+        print("blok het fietspad. Blijf alsmaar rechtdoor gaan (in een zuiderlijke richting)")
+        time.sleep(norm)
+        print("tot u aan de Nesserlaan komt. Sla hier linksaf en blijf lopen tot u niet")
+        time.sleep(norm)
+        print("meer rechtdoor kan. Dan komt u aan bij een T-splitsing aan de Amsteldijk.")
+        time.sleep(norm)
+        print("Ga hier rechts en blijf de Amsteldijk volgen. Loop tot u bij de kerk bent")
+        time.sleep(norm)
+        print("en na nog een klein stukje door te lopen bevindt u zich in de woonwijk/dorp")
+        time.sleep(norm)
+        print("Nes aan de Amstel. Niet klagen als het tegenvalt. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
+    if (query.lower() == "nes a/d amstel"):
+        init_answer()
+        print("Hoewel voor deze route wordt geadviseerd wordt om de fiets te pakken,")
+        time.sleep(norm)
+        print("kan Nes a/d Amstel met een beetje doorlopen ook makkelijk bereikt worden.")
+        time.sleep(norm)
+        print("Loop naar de Bovenkerkerweg. Steek over en volg het fietspad naar rechts.")
+        time.sleep(norm)
+        print("Ga onder het viaduct door en bij de T-splitsing rechtdoor blijven gaan.")
+        time.sleep(norm)
+        print("Blijf de Bovenkerkerweg volgen tot aan de onderliggende tramtunnel en")
+        time.sleep(norm)
+        print("volg de fietsafslag naar links. Aan het eind van de afslag gaat u links")
+        time.sleep(norm)
+        print("en volgt u het fietspad door het park heen tot aan tramhalte Brink.")
+        time.sleep(norm)
+        print("Steek over bij eerste tramovergang die u ziet en volg linksom het huizen-")
+        time.sleep(norm)
+        print("blok het fietspad. Blijf alsmaar rechtdoor gaan (in een zuiderlijke richting)")
+        time.sleep(norm)
+        print("tot u aan de Nesserlaan komt. Sla hier linksaf en blijf lopen tot u niet")
+        time.sleep(norm)
+        print("meer rechtdoor kan. Dan komt u aan bij een T-splitsing aan de Amsteldijk.")
+        time.sleep(norm)
+        print("Ga hier rechts en blijf de Amsteldijk volgen. Loop tot u bij de kerk bent")
+        time.sleep(norm)
+        print("en na nog een klein stukje door te lopen bevindt u zich in de woonwijk/dorp")
+        time.sleep(norm)
+        print("Nes aan de Amstel. Niet klagen als het tegenvalt. \n")
+        time.sleep(norm)
+        directions(input(">"))
+
+
     elif (query.lower() == "ver"):
         version()
         directions(input(">"))
@@ -398,7 +544,10 @@ def directions(query):
     else:
         print("Deze bestemming of commando is ongeldig.")
         time.sleep(1)
-        print("Probeer het opnieuw.") #Typ "help" voor alle mogelijke commando's en bestemmingen.
+        print("Probeer het opnieuw.")
+        time.sleep(1)
+        print("")
+        print("""Typ "help" voor alle mogelijke commando's.""")     # en bestemmingen
         directions(input(">"))
 
 
@@ -429,10 +578,10 @@ def disclaimer():
 
 
 
-no = "v1.1"
-no_dot = "v1.1."                                            #quick and dirty fix
-ver_dmy = "donderdag 27 januari 2022"                       #omdat ik het ff niet
-ver_dmy_dot = "donderdag 27 januari 2022."                  #anders kon doen
+no = "v1.1.1"
+no_dot = "v1.1.1."                                        #quick and dirty fix
+ver_dmy = "vrijdag 4 februari 2022"                       #omdat ik het ff niet
+ver_dmy_dot = "vrijdag 4 februari 2022."                  #anders kon doen
 copyright = "(c) 2022? Alle rechten voorbehouden."
 cr_short = "(c) 2022?"
 
@@ -469,6 +618,7 @@ def about():
     print("je paraplu, je baan of mentale gezondheid door het gebruik van")
     time.sleep(1)
     print("dit programma. Prutselen aan de code op jouw eigen risico enzo. \n")
+    time.sleep(2)
 
 
 def help():
@@ -532,9 +682,19 @@ def changelog():
     time.sleep(norm)
     print("        -De Gondel")
     time.sleep(norm)
-    print("        -Bloemenveiling Aalsmeer/FloraHolland")  #voeg Uilenstede en Stadshart
-    time.sleep(norm)                                        #de volgende keer toe
+    print("        -Bloemenveiling Aalsmeer/FloraHolland")
+    time.sleep(norm)
     print("    -500ste regel bereikt op donderdag 27 januari 2022 om 17:10!")
+    time.sleep(norm)
+    print("v1.1.1 voltooid op datum.")
+    time.sleep(norm)
+    print("    -Bestemmingen toegevoegd:")
+    time.sleep(norm)
+    print("        -Amstelveen Stadshart en winkelcentrum")
+    time.sleep(norm)
+    print("        -Uilenstede")
+    time.sleep(norm)
+    print("        -Nes a/d Amstel")
     time.sleep(norm)
     print("")
     time.sleep(norm)
